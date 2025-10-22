@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		189BC3032EA8A27B00407BC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BC2FF2EA8A27B00407BC7 /* ContentView.swift */; };
+		189BC3042EA8A27B00407BC7 /* GlowingSwastikView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BC3002EA8A27B00407BC7 /* GlowingSwastikView.swift */; };
+		189BC3052EA8A27B00407BC7 /* SwiftUIAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BC3012EA8A27B00407BC7 /* SwiftUIAnimationsApp.swift */; };
+		189BC3062EA8A27B00407BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189BC2FE2EA8A27B00407BC7 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		189BC2EE2EA8A1F600407BC7 /* SwiftUIAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189BC2FE2EA8A27B00407BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189BC2FF2EA8A27B00407BC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		189BC3002EA8A27B00407BC7 /* GlowingSwastikView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowingSwastikView.swift; sourceTree = "<group>"; };
+		189BC3012EA8A27B00407BC7 /* SwiftUIAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		189BC2F02EA8A1F600407BC7 /* SwiftUIAnimations */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIAnimations;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		189BC2EB2EA8A1F600407BC7 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		189BC2E52EA8A1F600407BC7 = {
 			isa = PBXGroup;
 			children = (
-				189BC2F02EA8A1F600407BC7 /* SwiftUIAnimations */,
+				189BC3022EA8A27B00407BC7 /* SwiftUIAnimations */,
 				189BC2EF2EA8A1F600407BC7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,17 @@
 				189BC2EE2EA8A1F600407BC7 /* SwiftUIAnimations.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		189BC3022EA8A27B00407BC7 /* SwiftUIAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				189BC3012EA8A27B00407BC7 /* SwiftUIAnimationsApp.swift */,
+				189BC3002EA8A27B00407BC7 /* GlowingSwastikView.swift */,
+				189BC2FF2EA8A27B00407BC7 /* ContentView.swift */,
+				189BC2FE2EA8A27B00407BC7 /* Assets.xcassets */,
+			);
+			path = SwiftUIAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +73,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				189BC2F02EA8A1F600407BC7 /* SwiftUIAnimations */,
 			);
 			name = SwiftUIAnimations;
 			packageProductDependencies = (
@@ -109,6 +120,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189BC3062EA8A27B00407BC7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189BC3032EA8A27B00407BC7 /* ContentView.swift in Sources */,
+				189BC3042EA8A27B00407BC7 /* GlowingSwastikView.swift in Sources */,
+				189BC3052EA8A27B00407BC7 /* SwiftUIAnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
